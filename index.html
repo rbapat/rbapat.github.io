@@ -1,30 +1,263 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Sachem Aftershock Scouter</title>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Rohan Bapat</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
-  <link rel="stylesheet" href="style.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
-  <script src="scripts.js"></script>
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="d-block d-lg-none">Rohan Bapat</span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpg" alt="" /></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Page Content-->
+        <div class="container-fluid p-0">
+            <!-- About-->
+            <section class="resume-section" id="about">
+                <div class="resume-section-content">
+                    <h1 class="mb-0">
+                        Rohan
+                        <span class="text-primary">Bapat</span>
+                    </h1>
+            
+                    <p class="lead mb-5">Sophmore at the University of Massachusetts Amherst pursuing a Bachelors Degree in Computer Science.</p>
+                    <div class="social-icons">
+                        <a class="social-icon" href="https://www.linkedin.com/in/rohan-bapat-3ba898174/"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="social-icon" href="https://www.github.com/rbapat"><i class="fab fa-github"></i></a>
+                        <a class="social-icon" href="mailto:rohanbap@gmail.com"><i class="fa fa-envelope"></i></a>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Experience-->
+            <section class="resume-section" id="experience">
+                <div class="resume-section-content" data-aos="fade-right">
+                    <h2 class="mb-5">Experience</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Systems Engineering Intern</h3>
+                            <div class="subheading mb-3">BAE Systems</div>
+                            <p>Created a proof of concept for a real-time object detection pipeline using deep learning classifiers on concurrent camera streams. Frames were streamed from IP Cameras to a python back-end where a pretrained convolutional neural network was run.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">July 2019 - August 2019</span></div>
+                    </div> 
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Education-->
+            <section class="resume-section" id="education">
+                <div class="resume-section-content" data-aos="fade-left">
+                    <h2 class="mb-5">Education</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">University of Massachussets Amherst</h3>
+                            <div class="subheading mb-3">Bachelor of Science</div>
+                            <div>Computer Science</div>
+                            <p>GPA: 3.96</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">September 2019 - May 2023</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Sachem East High School</h3>
+                            <div class="subheading mb-3">High School DiplomA</div>
+                            <p>GPA: 3.8</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">September 2015 - June 2019</span></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Skills-->
+            <section class="resume-section" id="skills">
+                <div class="resume-section-content" data-aos="flip-right">
+                    <h2 class="mb-5">Skills</h2>
+                    <div class="subheading mb-3">Programming Languages</div>
 
-</head>
-<body>
+                    <div class = "skill-title">
+                        C++ <span style="float:right; margin-right: 10px;">Proficient</span>
+                        <div class = "level">
+                            <div class = "proficient" style = "width:80%"/>
+                        </div>
+                    </div>
 
-<div class="container-fluid background text-center">
-<div class="center">
-  <h1>Sachem Aftershock Scouter</h1>
-  <h6>Developed during Detroit 2018 while mechanical was fixing their stuff</h6>
-  <div class="btn-group">
-    <a href="view.html" class="btn btn-primary btn-md btn-init">Data Viewer</a>
-    <a href="input.html" class="btn btn-primary btn-md btn-init">Input Data</a>
-  </div>
-</div>
-</div>
+                    <div class = "skill-title">
+                        Python <span style="float:right; margin-right: 10px;">Proficient</span>
+                        <div class = "level">
+                            <div class = "proficient" style = "width:80%"/>
+                        </div>
+                    </div>
 
-</body>
+                    <div class = "skill-title">
+                        Java <span style="float:right; margin-right: 10px;">Intermediate</span>
+                        <div class = "level">
+                            <div class = "proficient" style = "width:70%"/>
+                        </div>
+                    </div>
+
+                    <div class = "skill-title">
+                        C <span style="float:right; margin-right: 10px;">Intermediate</span>
+                        <div class = "level">
+                            <div class = "proficient" style = "width:60%"/>
+                        </div>
+                    </div>
+
+                    <div class = "skill-title">
+                        x86-64 Assembly <span style="float:right; margin-right: 10px;">Beginner</span>
+                        <div class = "level">
+                            <div class = "proficient" style = "width:40%"/>
+                        </div>
+                    </div>
+
+                    
+                    <div class="subheading mb-3" style = "margin-top: 3rem;">Tools</div>
+
+                    <div class="container">
+                        <div class="skill-boxes row">        
+                            <div class="skill-box col-md-3 col-sm-6 mb-4">                            
+                                <div class = "skill-name">
+                                    Machine Learning
+                                    <i class='arrow fas fa-angle-double-down'></i>
+                                </div>
+                                <span class = "skill-info">Tensorflow <br> Pytorch <br> OpenCV</span>
+                            </div>
+                        
+                            <div class="skill-box col-md-3 col-sm-6 mb-4">
+                                <div class = "skill-name">
+                                    Reverse Engineering
+                                    <i class='arrow fas fa-angle-double-down'></i>
+                                </div>
+                                <span class = "skill-info">IDA Pro <br> WinDbg</span>
+                            </div>
+                        
+                            <div class="skill-box col-md-3 col-sm-6 mb-4">
+                                <div class = "skill-name">
+                                    Embedded Systems
+                                    <i class='arrow fas fa-angle-double-down'></i>
+                                </div>
+                                <span class = "skill-info">Arduino <br> Raspberry Pi <br> Jetson GPU</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <hr class="m-0" />
+
+            <section class="resume-section" id="projects">
+
+                <div class="resume-section-content" data-aos="flip-right">
+                    <h2 class="mb-5">Projects</h2>
+                    <div class="container">
+                        <div class="row">
+
+                            <div class="col-md-7">
+                                <img class="img-fluid rounded mb-3 mb-md-0" src="assets/img/alzheimers.jpg" alt="">
+                            </div>
+                            <div class="col-md-5">
+                              <h3>Alzheimer's Detection</h3>
+                              <p>Convolutional Neural Network trained to detect brain atrophy in 3D MRI scans and track the progression of Alzheimer's Disease</p>
+                              <a class="btn btn-primary" href="https://github.com/rbapat/Alzheimers-Research">View Project</a>
+                            </div>
+                          </div>
+                    
+                          <hr>
+                    
+                          <div class="row">
+                            <div class="col-md-7">
+                                <img class="img-fluid rounded mb-3 mb-md-0" src="assets/img/toolkit.jpg" alt="">
+                            </div>
+                            <div class="col-md-5">
+                              <h3>Windows Kernel Toolkit</h3>
+                              <p>Windows process monitor developed for game hacking and monitoring usermode and kernel modules.</p>
+                              <a class="btn btn-primary" href="https://github.com/rbapat/WindowsToolkit">View Project</a>
+                            </div>
+                          </div>
+                    
+                          <hr>
+                    
+                          <div class="row">
+                            <div class="col-md-7">
+                                <img class="img-fluid rounded mb-3 mb-md-0" src="assets/img/vision_processing.jpg" alt="">
+                            </div>
+                            <div class="col-md-5">
+                              <h3>Robot Vision Processing</h3>
+                              <p>Vision processing pipeline used on my high school robotics team's robot during competition.</p>
+                              <a class="btn btn-primary" href="https://github.com/rbapat/Robot-Vision-Processing">View Project</a>
+                            </div>
+                          </div>
+                    
+                          <hr>
+                    
+                          <div class="row">
+                            <div class="col-md-7">
+                                <img class="img-fluid rounded mb-3 mb-md-0" src="assets/img/feedforward.jpg" alt="">
+                            </div>
+                            <div class="col-md-5">
+                              <h3>FeedForward</h3>
+                              <p>News App that scrapes RSS feeds and displays them using information extracted from sentiment analysis. Developed during <a href = "https://devpost.com/software/feedforward">TeenHacks LI.</a></p>
+                              <a class="btn btn-primary" href="https://github.com/rbapat/FeedForward">View Project</a>
+                            </div>
+                          </div>
+
+                          <hr> 
+
+                          <div class="row">
+                            <div class="col-md-7">
+                                <img class="img-fluid rounded mb-3 mb-md-0" src="assets/img/messenger.jpg" alt="">
+                            </div>
+                            <div class="col-md-5">
+                              <h3>Multithreaded Messenger</h3>
+                              <p>Scalable multithreaded messenger application developed for my AP Computer Science Final Project</p>
+                              <a class="btn btn-primary" href="https://github.com/rbapat/Multithreaded-Messenger">View Project</a>
+                            </div>
+                          </div>
+                    
+                          <hr>
+                    </div>
+
+                </div>
+            </section>
+
+            <hr class="m-0" />
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init({duration: 800});
+        </script>
+    </body>
 </html>
